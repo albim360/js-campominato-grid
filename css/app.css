@@ -42,7 +42,7 @@ body {
 /* 
     Imposta lo stile per tutti i figli dell'elemento con classe "griglia"   
 */
-.griglia > * {
+.griglia>* {
     border: 2px solid black;
     aspect-ratio: 1;
     display: flex;
