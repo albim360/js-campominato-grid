@@ -12,7 +12,7 @@ Aggiungo un colore di background al body
 */
 
 body {
-    background-color: #FFC107;
+    background-color: lightblue;
 }
 
 
@@ -24,6 +24,10 @@ body {
     margin: 0 auto;
     padding: 40px;
     max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 450px;
 }
 
 /* 
@@ -46,4 +50,10 @@ body {
     align-items: center;
     font-size: 25px;
     background-color: red;
+}
+
+#startGame {
+    padding: 10px;
+    background-color: blue;
+    margin: 50px;
 }
