@@ -1,0 +1,49 @@
+/*
+Regole di reset 
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+Aggiungo un colore di background al body
+*/
+
+body {
+    background-color: #FFC107;
+}
+
+
+/* 
+    Centra l'elemento con classe "container" 
+    e imposta i margini e i padding
+*/
+.container {
+    margin: 0 auto;
+    padding: 40px;
+    max-width: 1200px;
+}
+
+/* 
+    Imposta la proprietà display su "flex" per l'elemento con classe "griglia" 
+    e abilita il wrap del contenuto 
+*/
+.griglia {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* 
+    Imposta lo stile per tutti i figli dell'elemento con classe "griglia"   
+*/
+.griglia > * {
+    border: 2px solid black;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: red;
+}
