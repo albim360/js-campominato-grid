@@ -35,7 +35,7 @@ startButton.addEventListener('click', function() {
   // Iteriamo su ogni cella e associamo l'evento "click"
   cella.forEach(function(cella) {
     cella.addEventListener('click', function() {
-      cella.classList.add('bg-brown');
+      cella.classList.add('bg-green');
       // Logghiamo l'ID della cella cliccata
       console.log(cella.id.split("-")[1]);
     });

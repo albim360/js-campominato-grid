@@ -55,11 +55,11 @@ body {
 #startGame {
     padding: 50px;
     font-weight: bold;
-    background-color: blue;
+    background-color: #ff9800;    ;
     margin: 50px;
     font-size: 30px;
 }
 
-.bg-brown {
-    background-color: brown;
+.bg-green {
+    background-color: #009621;
 }
