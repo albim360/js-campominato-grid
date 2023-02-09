@@ -53,9 +53,11 @@ body {
 }
 
 #startGame {
-    padding: 10px;
+    padding: 50px;
+    font-weight: bold;
     background-color: blue;
     margin: 50px;
+    font-size: 30px;
 }
 
 .bg-brown {
