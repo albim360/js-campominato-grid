@@ -27,7 +27,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: calc(100vh - 40px);
 }
 
 /* 
@@ -37,6 +37,8 @@ body {
 .griglia {
     display: flex;
     flex-wrap: wrap;
+    margin: 50px;
+
 }
 
 /* 
@@ -49,17 +51,56 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 25px;
-    background-color: red;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
 }
+
+.griglia>*:hover {
+    transform: scale(1.1);
+}
+
 
 #startGame {
     padding: 50px;
     font-weight: bold;
-    background-color: #ff9800;    ;
+    background-color: #ff9800;
+    ;
     margin: 50px;
     font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
 }
+
+#startGame:hover {
+    background-color: #f57c00;
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 10px #f57c00;
+}
+
 
 .bg-green {
     background-color: #009621;
+}
+
+#restartGame {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#restartGame :hover {
+    background-color: #3e8e41;
 }
